@@ -24,4 +24,4 @@
 
 你要去[baidu][1]吗?
 
-[1]:www.baidu.com
+[1]:https://www.baidu.com

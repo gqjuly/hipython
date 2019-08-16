@@ -14,7 +14,7 @@
 生成一个脚注1[^footnote].  
 
 
-[^footnote]: 这里是**脚注**的*内容*.  
+[^footnote]:这里是**脚注**的*内容*.  
 
 
 生成一个脚注2[^foot].  
@@ -24,4 +24,4 @@
 
 你要去[baidu][1]吗?
 
-[1]：www.baidu.com
+[1]:www.baidu.com

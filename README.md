@@ -3,15 +3,15 @@
 *测试*  
 **我是粗体字**  
 我要~~删除~~你  
-脚注：haha[^1]
+脚注：haha[^small]
 
 
 
-[^1]:liuyuenvpengyou!
+[small]:liuyuenvpengyou!
 
 
 
-生成一个脚注2[^2].  
+生成一个脚注[^2]
 
 
 [^2]:这里是**脚注**的*内容*.  

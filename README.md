@@ -7,7 +7,7 @@
 
 
 
-[small]:liuyuenvpengyou!
+[^small]:liuyuenvpengyou!
 
 
 

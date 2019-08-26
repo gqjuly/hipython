@@ -8,7 +8,7 @@ for i in range(0, n-1):
 
 print(l)
 print(l[0])
-print(l[10])
+print(l[n-1])
 
 def findminanmax(l):
     if len(l) == 0:

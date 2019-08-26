@@ -26,3 +26,13 @@ def liu(y):
         return 1
     return y*liu(y-1)
 print(liu(5))
+
+#作业 打印list中的元素
+L =[
+    ["haha", "hehe", "heihei"],
+    ["六月", "七月", "八月"],
+    ["黄色", "红色", "紫色"]
+]
+
+#打印hehe
+print(L[0][1])

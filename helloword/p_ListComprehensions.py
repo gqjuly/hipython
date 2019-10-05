@@ -6,14 +6,13 @@ l = list(range(1,11))
 print(l)
 
 #生成1*1 2*2~10*10的列表
-
 #方法一 循环
 L= []
 for x in range(1,11):
     L.append(x*x)
 print(L)
 
-#方法二
+#方法二 生成器
 L = [x * x for x in range(1,11)]
 print(L)
 
@@ -24,6 +23,14 @@ print(L)
 #拓展 字符串ABC和QWE的集合
 Y = [x + y for x in 'ABC' for y in 'QWE']
 print(Y)
+
+N = [x*y for x in range(1, 4) for y in range(1, x)]
+print(N,"乘法表")
+for a in range(1, 10):
+    for b in range(1, a):
+        print(b,'*',a ,'=' ,a*b, end=" ")
+    print()
+
 
 #列出所有文件夹名称
 import os

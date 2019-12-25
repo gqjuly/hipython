@@ -86,5 +86,5 @@ def trimm(s):
 
 print(trimm(" abcdefg     ")+'ahahha')
 
-
+print("测试")
 

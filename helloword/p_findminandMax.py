@@ -51,15 +51,15 @@ def findMinAndMax(L):
 '''
 
 def findMinAndMax(L):
-    if(len(L)==0):
+    b = len(L)
+    if(b==0):
         return(None,None)
     else:
-        Min_num =L[0]
-        Max_num =L[0]
+        Max_num = Min_num  = L[0]
         for x in L:
-            if(x<Min_num):
-                Min_num=x
-            if (x > Max_num):
+            if(x <= Min_num):
+                Min_num = x
+            if(x >= Max_num):
                 Max_num = x
         return (Min_num,Max_num)
 
